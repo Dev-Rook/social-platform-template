@@ -1,0 +1,26 @@
+.Page {
+  display: flex;
+
+  gap: 30px;
+  padding-top: 100px;
+
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+  width: 100%;
+
+  .Content_Column, .Utility_Column {
+    display: flex;
+    flex-direction: column;
+
+    gap: 50px;
+    padding: 5px;
+
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 100%;
+    width: fit-content;
+  }
+}

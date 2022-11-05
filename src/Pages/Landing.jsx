@@ -1,9 +1,18 @@
-import React from 'react'
+import React from "react";
+import Styles from "../Styles/Page-Styles/Landing/Landing.module.css"
+
+import User from "../Page-Section/User";
 
 const Landing = () => {
   return (
-    <div>Landing</div>
-  )
-}
+    <div className={Styles.Page}>
+      <div className={Styles.Content_Column}>
+        <User />
+      </div>
 
-export default Landing
+      <div className={Styles.Utility_Column}></div>
+    </div>
+  );
+};
+
+export default Landing;

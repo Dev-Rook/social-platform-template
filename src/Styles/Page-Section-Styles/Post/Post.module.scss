@@ -1,0 +1,61 @@
+.Card {
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+
+  height: 400px;
+  width: 550px;
+
+  .Header {
+    border: 1px solid white;
+    display: flex;
+
+    padding: 5px;
+    gap: 20px;
+
+    justify-content: left;
+    align-items: center;
+
+    height: fit-content;
+    width: 100%;
+
+    .Logo_Container {
+      border: 1px solid white;
+      display: flex;
+
+      border-radius: 50%;
+
+      height: 30px;
+      width: 30px;
+
+      overflow: hidden;
+    }
+  }
+
+  .Image_Container {
+    border: 1px solid white;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+
+    height: 100%;
+    width: 100%;
+  }
+
+  .Footer {
+    border: 1px solid white;
+    display: flex;
+
+    padding: 5px;
+    gap: 20px;
+
+    justify-content: left;
+    align-items: center;
+
+    height: fit-content;
+    width: 100%;
+  }
+}
